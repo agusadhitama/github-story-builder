@@ -66,7 +66,7 @@ export default function LandingPage({ onGenerate }) {
 
         <p className="landing__sub">
           Turn any GitHub profile into a beautiful, shareable developer story.
-          Stats, languages, timeline — all of it, beautifully rendered.
+          Stats, languages, timeline all of it, beautifully rendered.
         </p>
 
         <form className="landing__form" onSubmit={handleSubmit}>
