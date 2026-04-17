@@ -57,29 +57,6 @@ Your site will be live at: `https://agusadhitama.github.io/github-story-builder`
 
 ---
 
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── LandingPage.js / .css   → Hero search page
-│   ├── StoryPage.js / .css     → Main story layout
-│   ├── HeroCard.js / .css      → Profile header card
-│   ├── StatsRow.js / .css      → 4-stat summary bar
-│   ├── LanguageChart.js / .css → Animated language bars
-│   ├── Timeline.js / .css      → Repos-per-year chart
-│   ├── TopRepos.js / .css      → Top 6 repo cards
-│   └── SharePanel.js / .css    → Share & GitHub buttons
-├── utils/
-│   └── github.js               → GitHub API helpers
-├── App.js
-├── App.css
-├── index.js
-└── index.css
-```
-
----
-
 ## Notes
 
 - Uses the **public GitHub API** (unauthenticated) - rate limit is 60 requests/hour per IP.
